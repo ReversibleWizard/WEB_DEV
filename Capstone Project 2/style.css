@@ -1,0 +1,30 @@
+.logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+html{
+    background-color: #000033;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+
+.hero_text{
+    color: #99ff99;
+}
+
+.carousel_text{
+    color: #99ff99;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.Hero{
+    background-image: url(./assets/Untitled\ design.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

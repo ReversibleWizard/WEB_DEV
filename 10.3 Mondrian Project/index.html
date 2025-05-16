@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container{
+      height: 748px;
+      width: 748px;
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      background-color: black;
+      gap: 9px;
+    }
+
+    .red{
+      background-color: #E72F24;
+      grid-area: 1 / 1 / 2 / 2;
+      /* border-right: black solid 9px; */
+      /* border-bottom: black solid 9px; */
+    }
+
+    .white{
+      background-color: #F0F1EC;
+    }
+
+    .Blue{
+      background-color: #004592;
+      grid-area: 2 / 4 / 3 / 5;
+      /* border-left: black solid 9px; */
+      /* border-top: black solid 9px; */
+      /* border-bottom: #232629 solid 10px; */
+    }
+
+    .Yellow{
+      background-color: #F9D01E;
+      grid-area: 4 / 2 / 5 / 3;
+      /* border-right: black solid 9px;
+      border-left: black solid 9px;
+      border-top: black solid 9px; */
+    }
+
+    .Black{
+      background-color: #232629;
+      grid-area: 4 / 3 / 5 / 4;
+      /* border-right: black solid 9px;
+      border-left: black solid 9px;
+      border-top: black solid 9px; */
+    }
+
+    .two{
+      grid-area: 1 / 2 / 2 / 5;
+      /* border-bottom: black solid 9px;
+      border-left:  black solid 9px; */
+    }
+
+    .three {
+      grid-area: 2 / 1 / 4 / 2;
+    }
+    .four{
+      grid-area: 2 / 2 / 4 / 4;
+      /* border-left:  black solid 9px;
+      border-right:  black solid 9px; */
+    }
+
+    .five{
+      grid-area: 4 / 1 / 5 / 2;
+      /* border-top:  black solid 9px; */
+    }
+
+    .six{
+      grid-area: 3 / 4 / 5 / 5;
+      /* border-top:  black solid 9px; */
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="red"></div>
+    <!-- <div class="white one"></div> -->
+    <div class="white two"></div>
+    <div class="white three"></div>
+    <div class="Blue"></div>
+    <div class="white four"></div>
+    <div class="white five"></div>
+    <div class="Yellow"></div>
+    <div class="Black"></div>
+    <div class="white six"></div>
+  </div>
+</body>
+
+</html>
