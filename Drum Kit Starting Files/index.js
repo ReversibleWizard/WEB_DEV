@@ -2,8 +2,9 @@
 // <<<<<<< Sayak_windows
 // =======
 
-//  document.querySelector("button").addEventListener("click", handleClick);
-// >>>>>>> main
+
+//  document.querySelector ("button").addEventListener("click", handleClick);
+
 
 var numberOfDrumButtons = document.querySelectorAll(".drum").length; 
 
